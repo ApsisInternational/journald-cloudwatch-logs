@@ -1,6 +1,7 @@
 module journald-cloudwatch-logs
 
 go 1.21
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go v1.50.21
@@ -10,5 +11,5 @@ require (
 
 require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 )
